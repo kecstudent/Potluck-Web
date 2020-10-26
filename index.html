@@ -1,5 +1,156 @@
+</html>
 <html>
-<body>
-<h1>Potluck</h1>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>
+            Potluck
+        </title>
+        <link rel="icon" href="applogo.png" type="image/png">
+        <style type="text/css">
+        body{
+            background-image:url(Hotpot.png) ;
+            background-size: cover;
+            
+        }
+
+        *{
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+        }
+
+        .header{
+            width: 100%;
+            height: 100px;
+          
+            background-size: cover;
+           
+        }
+        .navbar{
+            width: 100%;
+            padding: 20px;
+            position: fixed;
+            top: 0px;
+            text-align: right;
+            transition: .5s;
+        }
+
+        .navbar ul li{
+            list-style-type: none;
+            display: inline-block;
+            padding: 10px 25px;
+            color: white;
+            font-size: 20px;
+            font-family: sans-serif;
+            cursor: pointer;
+            border-radius: 15px;
+            transition: .5s;
+           
+        }
+        .navbar ul li:hover{
+            background:orange;
+        }
+
+        .center {
+            position: absolute;
+            top: 90%;
+            left: 32%;
+            transform: translate(-50%,-50%);
+
+        }
+
+        .download-btn{
+            width: 500px;
+            height: 60px;
+            text-align: center;
+            cursor: pointer   ;
+            margin:20px 0px ;
+            border-radius: 20px;
+            box-sizing: border-box;
+            overflow: hidden;
+
+        }
+
+        .story{
+            position: absolute;
+            top: 80%;
+            left: 25%;
+        }
+
+        .download-btn.btn-1{
+            /* border:5px solid rgb(12, 117, 12); */
+
+        }
+        .download-btn div{
+            width: 100%;
+            height: 100%;
+            font-size: 15px;
+            font-weight: 600;
+            text-transform: uppercase;
+            line-height: 50px;
+        }
+
+        .download-btn.btn-1 .top{
+            background: rgb(12, 146, 12)
+        }
+        
+        .download-btn .bottom{
+            background : #eee;
+            color: #222;
+        }
+
+        .download-btn .top{
+            transition: all 200ms ease-in-out;
+        }
+
+        .download-btn:hover .top{
+            margin-top: -50px;
+        }
+       
+       .l1{
+           text-decoration: none;
+           
+       }
+       .topi{
+        box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+       }
+       
+       img{
+           position: absolute;
+           border-radius: 50%;
+           width: 100px;
+           height: 100px;
+           top: 2%;
+           left: 2%;
+       }
+
+        </style>
+    </head>
+    <body>
+        
+        <div class="header">
+            <div class="navbar">
+                <ul>
+                    <li><a class="l1" href="https://play.google.com/store/apps/details?id=com.teama3.potluck"><font color="white" id="topi">  Download </font></a></li>
+                    <li><a class="l1" href="./TermsOfUse.html"><font color="white" >Terms of Use</font></a></li>
+                    <li><a class="l1" href="./PrivacyPolicy.html"><font color="white" >Privacy Policy</font></a></li>
+                    <li><a class="l1" href="mailto:contact@potluck.mobi?subject=Query from Website"><font color="white" >Contact us</font></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="center">
+           
+            <div class="download-btn btn-1">
+                <div class="top">
+                   <font style="color:white;font-family:sans-serif">Download</font>
+                </div>
+                <div class="bottom">
+                    Size: 11.5 MB  
+                </div>
+            </div>
+        </div>
+ 
+       <img src="./applogo.jpg">
+    </body>
 </html>
